@@ -45,7 +45,7 @@ Answer
 ``` 
 
 As shown in the examples above, the key point is whether the user's question can be divided into multiple sub-questions or not. 
-*** The important point is not to expand the question. *** 
+*** Ensure that sub-questions remain within the original question’s scope. Do not introduce new topics or assumptions that the user did not imply. *** 
 
 HUMAN 
 {question}
