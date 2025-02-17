@@ -14,8 +14,7 @@ Just mention the category names, no need for any additional words.
 
 Human 
 {question}
-----------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------
 
 <지시문>
 너는 프롬프트를 평가하는 평가사야.
@@ -42,4 +41,54 @@ Human
 {question}
 """
 <답변>
+--------------------------------------------------------------------------------------------------
+
+<지시문>
+너는 프롬프트를 평가하는 평가사야.
+"""안에 있는 프롬프트를 분석해서 1점 만점에 몇점인지 알려주고
+부족한 점이 있다면 그 이유와 개선 방법을 알려줘.
+</지시문>
+
+<설명>
+평가하는 프롬프트는 RAG에서 분류를 담당하는 프롬프트입니다.
+분류노드에는 여러개의 분류BOX를 추가할수 있고 질문을 받으면 분류BOX의 설명과 예시를 비교하여
+가장 유사항 분류BOX가 선택이 되고 분류BOX에 매핑된 타겟노드로 이동하게 됩니다.
+{category_lenth} : 분류BOX 의 개수
+{category_names} : 분류BOX 의 이름
+{category_descriptions} : 분류BOX 의 설명
+{category_examples} : 분류BOX 의 예시
+</설명>
+
+<프롬프트>
+"""
+prompt:
+You're a text classifier. 
+Let's think step by step. Instructions must be followed carefully. 
+
+You need to categorize the user’s input texts into {category_lenth} categories, 
+
+namely: {category_names}
+Here's description of each category: 
+{category_descriptions}
+
+You could learn from the following examples: 
+{category_examples}
+You could learn from the above examples. 
+Just mention the category names, no need for any additional words. 
+
+Human 
+{question}
+"""
+</프롬프트>
+
+<답변>
+
+
+
+
+
+
+
+
+
 
