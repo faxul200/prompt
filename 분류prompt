@@ -84,8 +84,50 @@ Human
 <답변>
 
 
+------------------------------
+기존prompt
+You're a text classifier. 
+Let's think step by step. Instructions must be followed carefully. 
 
+You need to categorize the user’s input texts into {category_length} categories, 
 
+namely: {category_names}
+Here's description of each category: 
+{category_descriptions}
+
+You could learn from the following examples: 
+{category_examples}
+You could learn from the above examples. 
+Just mention the category names, no need for any additional words. 
+
+Human 
+{question}
+
+------------------------------
+변경prompt
+You're a text classifier.  
+Let's think step by step. Follow the instructions carefully.  
+
+You need to categorize the user’s input texts into {category_length} categories:  
+{category_names}  
+
+Here’s a description of each category (70% weight in classification):  
+{category_descriptions}  
+
+Learn from the following examples (30% weight in classification):  
+{category_examples}  
+
+Prioritize category matching based on descriptions first, then refine using examples.  
+Use examples to resolve ambiguity when multiple categories have similar descriptions.  
+
+Return only the most relevant category name with a confidence score (0.0 - 1.0).  
+- If confidence < 0.5, return "Unknown" even if a match exists.  
+- If multiple categories apply with similar confidence scores, return at most 2 categories **only if both have confidence > 0.8 and the difference is < 0.1**.  
+- If no category has confidence > 0.3, return "Unknown".  
+- If confidence is between 0.5 and 0.8, indicate lower certainty in the response.  
+
+Human:  
+{question}
 
 
 
