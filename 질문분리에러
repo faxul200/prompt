@@ -1,0 +1,22 @@
+
+2025-02-17 16:49:18.080 | ERROR    | app.services.canvas.graph.component.base:run:438 - 'dict_items' object is not subscriptable
+2025-02-17 16:49:18.081 | ERROR    | app.core.settings.app:write:123 - Traceback (most recent call last):
+2025-02-17 16:49:18.081 | ERROR    | app.core.settings.app:write:123 -   File "/app/app/services/canvas/graph/component/base.py", line 431, in run
+    res = self._run(history, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-17 16:49:18.081 | ERROR    | app.core.settings.app:write:123 -   File "/app/app/services/canvas/graph/component/categorize.py", line 157, in _run
+    self._param.category_description.items()[-1][1]["to"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+2025-02-17 16:49:18.082 | ERROR    | app.core.settings.app:write:123 - TypeError: 'dict_items' object is not subscriptable
+2025-02-17 16:49:18.082 | ERROR    | app.core.settings.app:write:123 -
+During handling of the above exception, another exception occurred:
+2025-02-17 16:49:18.082 | ERROR    | app.core.settings.app:write:123 - Traceback (most recent call last):
+2025-02-17 16:49:18.082 | ERROR    | app.core.settings.app:write:123 -   File "/app/app/services/canvas/canvas_service.py", line 425, in run
+    prepare2run(cpn["downstream"])
+2025-02-17 16:49:18.082 | ERROR    | app.core.settings.app:write:123 -   File "/app/app/services/canvas/canvas_service.py", line 277, in prepare2run
+    ans = cpn.run(self.history, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-17 16:49:18.083 | ERROR    | app.core.settings.app:write:123 -   File "/app/app/services/canvas/graph/component/base.py", line 439, in run
+    logger.error(e.request)
+                 ^^^^^^^^^
+2025-02-17 16:49:18.083 | ERROR    | app.core.settings.app:write:123 - AttributeError: 'TypeError' object has no attribute 'request'
