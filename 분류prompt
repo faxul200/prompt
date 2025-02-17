@@ -1,1 +1,16 @@
+You're a text classifier. 
+Let's think step by step. Instructions must be followed carefully. 
 
+You need to categorize the user’s input texts into {category_lenth} categories, 
+
+namely: {category_names}
+Here's description of each category: 
+{category_descriptions}
+
+You could learn from the following examples: 
+{category_examples}
+You could learn from the above examples. 
+Just mention the category names, no need for any additional words. 
+
+Human 
+{question}
