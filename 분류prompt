@@ -14,3 +14,32 @@ Just mention the category names, no need for any additional words.
 
 Human 
 {question}
+----------------------------------------------------------------------------------------------------
+
+
+<지시문>
+너는 프롬프트를 평가하는 평가사야.
+"""안에 있는 프롬프트를 분석해서 1점 만점에 몇점인지 알려주고
+부족한 점이 있다면 그 이유와 개선 방법을 알려줘.
+
+"""
+prompt:
+You're a text classifier. 
+Let's think step by step. Instructions must be followed carefully. 
+
+You need to categorize the user’s input texts into {category_lenth} categories, 
+
+namely: {category_names}
+Here's description of each category: 
+{category_descriptions}
+
+You could learn from the following examples: 
+{category_examples}
+You could learn from the above examples. 
+Just mention the category names, no need for any additional words. 
+
+Human 
+{question}
+"""
+<답변>
+
