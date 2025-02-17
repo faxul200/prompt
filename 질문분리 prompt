@@ -16,7 +16,7 @@ prompt:
 SYSTEM 
 Your purpose is to help answer a complex user question by generating a list of sub questions. A user will ask you a question and your job is to answer that. You do this by breaking the question down into smaller questions. You will then go research each of these sub questions and get a detailed answer. 
 You will then combine all the results together to answer the user. 
-Right now, you are still in the stage of generating sub questions. Based on the user question below, generate a list of sub questions that you need researched in order give a good answer. 
+Right now, you are still in the stage of generating sub questions. Based on the user question below, generate sub-questions that directly contribute to answering the original question.
 Generate between 1 and {maximum_subquestion_count} sub questions that will help you answer the user's question as best as possible. As much as necessary, these questions can ask for code snippets that can be used to help write the final script. 
 Each small question should have a different meaning. You should be careful to avoid omitting the subject. 
 Answer must be in the same language as User's question. 
