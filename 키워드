@@ -1,3 +1,18 @@
+<지시문>
+너는 프롬프트를 평가하는 평가사야.
+"""안에 있는 프롬프트를 분석해서 1점 만점에 몇점인지 알려주고
+부족한 점이 있다면 그 이유와 개선 방법을 알려줘.
+</지시문>
+
+<설명>
+평가하는 프롬프트는 RAG에서 키워드 추출을 담당하는 프롬프트입니다.
+키워드 추출 노드에는 화면에서 키워드 추출 개수를 설정할수 있고 최대 30개 까지 설정가능하고 설정된 개수 이하만큼 새로운 질문이 생성이 됩니다.
+{top_n} 변수에 키워드 추출 개수가 설정이 됩니다.
+</설명>
+
+<프롬프트>
+"""
+prompt:
 - Role: You're a text analyzer. 
 - Requirements: 
   - Summarize user's text, and give top {top_n} important keyword/phrase. 
@@ -9,3 +24,7 @@ user's text:
 {context} 
 
 - keyword: 
+"""
+</프롬프트>
+
+<답변>
