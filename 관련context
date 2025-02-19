@@ -1,0 +1,122 @@
+{
+content: {
+0: {
+자율주행 기능이 있는 볼보 자동차 모델 3개를 추천해줘: [
+0: {
+file_path: "aaaa/국내외 자율주행자동차 기술개발 동향과 전망.pdf"
+moddate: "D:20160406160204+09'00'"
+creationdate: "D:20160406160203+09'00'"
+creator: "Adobe InDesign CC 2015 (Windows)"
+file_name: "국내외 자율주행자동차 기술개발 동향과 전망.pdf"
+bucket_name: "aaaa"
+producer: "Adobe PDF Library 15.0"
+total_pages: "7"
+page: "2"
+source: "aaaa/국내외 자율주행자동차 기술개발 동향과 전망.pdf"
+doc_id: "67b4126aefe723e3873de4d5"
+content: "도 적용되어 있다. 레벨3 수준의 기술은 2019년 정도를 목표로 개발 중이며, 레벨4는 2025년 이후에나 적용될 수 있을 것으로 보인다. Benz, BMW, Volkswagen, GM, Toyota 등은 주로 표 1. 자율주행의 정의 (자료: NHTSA, 2013) 차선유지 제어기술을 중심으로 차간거리 제어나 충돌 회피기술 을 개발하고 있다. Audi, Volvo, Ford 등은 저속 주행시 차량 간격 유지와 자동조향기능 등의 기술을 개발하여 적용 중이다. #### 2. 자율주행자동차 시스템의 구성 자율주행자동차는 외부 주행환경을 인식하고 이를 판단하여 주행전략을 수립하며, 차량을 제어하는 프로세스로 작동하는 것이 일반적이다. 이러한 프로세스에 따라 자율주행자동차 시 스템과 요소기술을 살펴보면 다음 <그림 1>과 같다. 우선 자동차가 외부의 주행환경을 인식하는 과정에는 ‘경로 탐색', ‘고정 지물 인식', ‘변동·이동 물체 인식' 등이 포함된다."
+}
+1: {
+file_path: "aaaa/A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+creationdate: "D:20200624114729+09'00'"
+creator: "PScript5.dll Version 5.2.2"
+file_name: "A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+author: "<C4DCC5D9C3F7C7D0C8B8>"
+bucket_name: "aaaa"
+total_pages: "9"
+source: "aaaa/A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+title: "8=(J1_202000394)정임영.hwp"
+doc_id: "67b41630efe723e3873de546"
+moddate: "D:20200701164216+09'00'"
+producer: "Acrobat Distiller 10.1.16 (Windows)"
+page: "3"
+content: "### 92 한국콘텐츠학회논문지 '20 Vol. 20 No. 6 **그림 4. 자율주행레벨 3을 만족하는 Audi 사의 A8 model [6]** **그림 5. 자율주행레벨 5를 위한 자율주행자동차의 센서들 [7]** #### 하려 한다. 기존 자동차 제조사들은 차간거리유지, 차선이탈방 지, 주차 보조 장치 등 복수의 첨단운전자지원시스탬 (ADAS: Advanced Driving Assistance System)을 갖춘 레벨 2 수준까지의 자율주행차를 출시하고 있다. [그림 4][6]는 [표 1][5]의 자율주행레벨 3을 지원하 는 현재의 자율주행자동차의 시판 모델인 Audi 사의 A8을 보여주고 있다. 차량주변의 상황, 물건 및 사람들 을 감지하기 위한 각종 카메라, 레이더(Radar)와 초음 파센서를 포함하는 여러 센서들이 장착되어있다. #### 아직 자동차 제조사에서 구체적인 출시 계획을 내놓"
+}
+2: {
+file_path: "aaaa/A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+creationdate: "D:20200624114729+09'00'"
+creator: "PScript5.dll Version 5.2.2"
+file_name: "A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+author: "<C4DCC5D9C3F7C7D0C8B8>"
+bucket_name: "aaaa"
+total_pages: "9"
+source: "aaaa/A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+title: "8=(J1_202000394)정임영.hwp"
+doc_id: "67b41630efe723e3873de546"
+moddate: "D:20200701164216+09'00'"
+producer: "Acrobat Distiller 10.1.16 (Windows)"
+page: "1"
+content: "가는 단정할 수 없다. 자율주행차량이 시장에 나온 이후에 사람들이 위험해지면 안 되기 때문에, 현재의 기술 력으로 예측할 수 있는 모든 위험을 사전에 진단하는 것이 필요하다. 그리고 출시되는 차량에 맞는 방어방안을 장착하는 것이 보다 안전한 차량을 개발하는 방법이 될 것이다. 본 논문은 자율주행자동차의 현재 개발 상황을 살펴보고, 주행 안전을 위협하는 자율주행자동차의 위험을 이에 대한 방어방안과 같이 분석하고자 한다. - 중심어 :∣자율주행자동차∣위험 모델∣오픈 시스템∣자동차 보안∣자동차 안전∣보안 위협∣ #### Abstract Modern vehicles are evolving from manual to automatic driving. As the ratio of electrical equipment"
+}
+]
+}
+1: {
+{'자율주행 기능이 있는 볼보 자동차 모델 3개를 추천해줘': ['자율주행 기능이 탑재된 볼보 자동차 모델 중에서 추천할 만한 3가지를 알려주세요.']}: [
+0: {
+file_path: "aaaa/Legal-Issues-Related-with-Autonomous-Vehicle-Operation.pdf"
+creationdate: "D:20200221172934+09'00'"
+creator: "NuriMedia Co., Ltd. - www.nurimedia.co.kr"
+rgid: "PB:332273003_AS:1034522174959622@1623660715577"
+file_name: "Legal-Issues-Related-with-Autonomous-Vehicle-Operation.pdf"
+author: "NuriMedia Contents Team"
+bucket_name: "aaaa"
+total_pages: "19"
+source: "aaaa/Legal-Issues-Related-with-Autonomous-Vehicle-Operation.pdf"
+title: "DBPIA-NURIMEDIA"
+doc_id: "67b41630efe723e3873de548"
+moddate: "D:20200221172934+09'00'"
+producer: "iText® 5.5.6 ©2000-2015 iText Group NV (AGPL-version)"
+page: "16"
+content: "로 판단하고 있으며, Level 3 수준의 자율주행차량에 대한 관련법을 제정하는 것에 초점을 맞추고 있다 고 할 수 있다. Level 3 수준의 자율주행차량은 운행 -----"
+}
+1: {
+file_path: "aaaa/자율주행 자동차 개발현황 및 시사점.pdf"
+creationdate: "D:20140529150226+09'00'"
+creator: "QuarkXPress: AdobePS 8.5.1"
+file_name: "자율주행 자동차 개발현황 및 시사점.pdf"
+author: "hanrimwon"
+bucket_name: "aaaa"
+total_pages: "8"
+source: "aaaa/자율주행 자동차 개발현황 및 시사점.pdf"
+title: "41-1........"
+doc_id: "67b4126aefe723e3873de4d7"
+moddate: "D:20140529150233+09'00'"
+producer: "ezPDFGate with ............ .... Acrobat Distiller"
+page: "3"
+content: "최초로고령자맞춤형1인승모빌리티(도요타COMS) <그림4> 볼보SARTRE 군집주행(출처: 볼보) ### 24 24 -----"
+}
+2: {
+file_path: "aaaa/자율 주행 자동차 관련 SW기술 동향.pdf"
+moddate: "D:20160406160222+09'00'"
+creationdate: "D:20160406160220+09'00'"
+creator: "Adobe InDesign CC 2015 (Windows)"
+file_name: "자율 주행 자동차 관련 SW기술 동향.pdf"
+bucket_name: "aaaa"
+producer: "Adobe PDF Library 15.0"
+total_pages: "7"
+page: "6"
+source: "aaaa/자율 주행 자동차 관련 SW기술 동향.pdf"
+doc_id: "67b4126aefe723e3873de4d6"
+content: "하면서 센서등에서 발생하는 정보를 이용하여 장애물 인식 기 능, 차선 인식, 신호등 인식등의 기능이 필요하다. 또한, 차제를 제어하기 위하여 최종 판단을 하는 SW와 차체와의 연동 기능 을 통하여 안정적인 차량 운행 제어가 가능하도록 한다. 그리고, 실제적으로 자율주행 자동차를 통제하기 위한 관제탑 역할을 수행하는 컴퓨터에서의 운영체제가 무인 자동차에서도 필수적이다. 자율주행 자동차 기술의 핵심이 결국에는 SW 기 술이라고 볼 수 있다. 자율주행 자동차와 관련한 SW 오류로 인한 사고 방지와 제 조 효율 제고를 위해 선진 업체를 중심으로 ISO 26262와 AUTOSAR(Automotive Open System Architecture) 등의 표 준화 작업이 가속화되고 있다. 지금까지 살펴본 바와 같이 자율 주행 자동차 기술 개발을 통 한 상용화 시점이 목전에 와 있다. IT 기술을 접목한 자율 주행"
+}
+]
+}
+}
+empty_response: {
+0: false
+1: false
+}
+over_maximum_loop: {
+0: true
+1: true
+}
+}
+
+
+
+question : 자율주행 볼보 자동차 3개 추천해줘
+
+
+
+
+
