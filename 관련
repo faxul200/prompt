@@ -8,3 +8,56 @@ If the document contains keyword(s) or semantic meaning related to the user ques
 Give a binary score 'yes' or 'no' score to indicate whether the document is relevant to the question. 
 
 You must answer using only the two words 'yes' or 'no,' and you must respond in English.
+
+----------------------------------------------------------------------------------------
+
+content: {
+0: {
+자율주행 시스템의 딥러닝 모델은 어떻게 작동하나요?: [
+0: {
+file_path: "aaaa/자율 주행 자동차 관련 SW기술 동향.pdf"
+moddate: "D:20160406160222+09'00'"
+creationdate: "D:20160406160220+09'00'"
+creator: "Adobe InDesign CC 2015 (Windows)"
+file_name: "자율 주행 자동차 관련 SW기술 동향.pdf"
+bucket_name: "aaaa"
+producer: "Adobe PDF Library 15.0"
+total_pages: "7"
+page: "2"
+source: "aaaa/자율 주행 자동차 관련 SW기술 동향.pdf"
+doc_id: "67b4126aefe723e3873de4d6"
+content: "표 1. 자율 주행 자동차 관련 기술 그림 1. 구글의 자율 주행자동차(Source: Google) 및 장비들로부터 들어오는 데이터를 수집하여 분석할 수 있는 시스템이 있다. 이러한 시스템 위에 차량의 운행을 판단할 수 있는 IT SW 기술이 핵심이 될 것이다. IT SW기술로는 전장 장 치를 구동할 수 있는 실시간 운영체제, 전장 장치 운영체제 상 에 탑재되는 다양한 응용 프로그램이 있다. 이러한 전장장치와 센서 장치 등에서 수집되는 정보들을 통합하여 실시간으로 관 리하는 시스템을 구동할 수 있는 SW등이 필수적이다[13]. 인식 기술, 경로 생성 기술, 차량 제어 기술, 지도 기술 등에 서 완전 자율주행을 위한 연구가 진행되고 있다. 주행 도로 상 황에서 예측 불가능한 상황과 다양한 위험성, 날씨나 환경 변화 에 따른 차선 인식의 어려움 등을 극복하기 위해서 딥러닝 기반 인공 지능 기술이 선보이고 있다. ## Ⅱ. 자율주행 자동차 기술 개발 동향"
+}
+1: {
+file_path: "aaaa/국내외 자율주행자동차 기술개발 동향과 전망.pdf"
+moddate: "D:20160406160204+09'00'"
+creationdate: "D:20160406160203+09'00'"
+creator: "Adobe InDesign CC 2015 (Windows)"
+file_name: "국내외 자율주행자동차 기술개발 동향과 전망.pdf"
+bucket_name: "aaaa"
+producer: "Adobe PDF Library 15.0"
+total_pages: "7"
+page: "1"
+source: "aaaa/국내외 자율주행자동차 기술개발 동향과 전망.pdf"
+doc_id: "67b4126aefe723e3873de4d5"
+content: "수준은 해외 자동차회사의 기술 수준과 비교해서 어디까지 와 있으며, 향후 대응은 어떻게 해야 할 것인가? 본 연구에서는 이 러한 문제제기를 통해 스마트 자동차와 관련된 최신 기술동향을 살펴보면서 현재 자동차기술이 어떤 방향으로 개발되고 있는지 분석해보고, 향후 우리는 어떻게 대응해야 할 것인지 모색해보 고자 한다. ## Ⅱ. 본 론 일반적으로 스마트 자동차는 자율주행자동차, 무인자동차, 커 넥티드자동차 등을 포함한 개념으로 통칭되고 있다. 자율주행 자동차는 운전자가 탑승하면서 ICT의 도움으로 운전을 안전하 고 편리하게 하는 자동차를 의미하고, 무인자동차는 운전자 없 이 달리는 자동차라고 이해하면 쉬울 것이다. 커넥티드자동차 는 ICT와 자동차를 연결시켜 인터넷 접속과 모바일 서비스 등 이 가능한 자동차라고 할 수 있다. 본 연구에서는 자율주행기술 과 관련된 분야에 집중하여 살펴볼 것이다. #### 1.자율주행의 정의"
+}
+2: {
+file_path: "aaaa/A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+creationdate: "D:20200624114729+09'00'"
+creator: "PScript5.dll Version 5.2.2"
+file_name: "A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+author: "<C4DCC5D9C3F7C7D0C8B8>"
+bucket_name: "aaaa"
+total_pages: "9"
+source: "aaaa/A Study on The Dangers and Their Countermeasures of Autonomous Vehicle.pdf"
+title: "8=(J1_202000394)정임영.hwp"
+doc_id: "67b41630efe723e3873de546"
+moddate: "D:20200701164216+09'00'"
+producer: "Acrobat Distiller 10.1.16 (Windows)"
+page: "6"
+content: "재현하고 투사를 통해 사고를 감지하는 방안이다. 차량 의 흐름에서 차량 간의 속도와 거리를 통해 사고가 일 어날 가능성이 높은 지역에 대해 안전을 미리 체크하는 사전 안전 점검을 실시간 시행하게 된다. 머신러닝 기 반의 방법들[28]은 차량 내 장치된 각종 카메라를 활용 한 주행 시야 인식, 차량 및 물체 인식, 주행 방향 및 경로 결정, 상황 판단에 따른 움직임 결정, 차량 컨트롤 러 조정 등을 수행하는데 활용된다. 자율주행을 위한 머신러닝 기반 접근은 카메라나 비디오 이미지를 통한 상황 및 물체 인식에 많이 활용되며, CNN, LSTM, RNN을 병용하는 경우가 많다[28]. 센서와 카메라에 의해 생성되는 데이터를 처리함으 로써 자율주행을 처리하는 방법과 관련된 자율주행 위 험 모델은 [표 3]과 같다. 자율주행자동차 위험 및 대응방안에 대한 고찰 **95**"
+}
+]
+}
+}
