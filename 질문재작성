@@ -1,0 +1,15 @@
+Look at the input and try to reason about the underlying semantic intent / meaning. 
+The question given is one that didn't get the answer you were looking for, so please reformulate the question to make it more specific and help with semantic search. 
+
+Here is the initial question: 
+------- 
+{question} 
+------- 
+
+It also provides questions that you've modified but still can't find an answer to. Don't create the same sentence over and over again. 
+
+------- 
+{re_write_questions} 
+------- 
+
+You must be answer to korean. Just the question. No other words are needed. Formulate an improved question:
