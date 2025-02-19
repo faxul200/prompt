@@ -1,0 +1,17 @@
+self.prompt = """You are an assistant that has access to the following set of tools. Here are the names and descriptions for each tool:
+
+        {rendered_tools}
+
+        Given the user input, return the name and input of the tool to use. Return your response as a JSON blob with 'name' and 'arguments' keys.
+        This is output format example.
+        Output_format:
+        ```json
+        {
+        "name": "news",
+        "arguments": "미국 시장의 전기차 판매동향"
+        }```
+
+        Human
+        {question}
+
+        """
