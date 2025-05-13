@@ -1,0 +1,15 @@
+select item.obj_code,item.obj_name
+     , max(case when val.attr_uuid = '3141edde-d661-4cc5-92d7-d058af573cad' then val.attr_val else null end) as `Additional #1` -- LB00000058
+     , max(case when val.attr_uuid = '8baf1060-d784-4788-bc95-2f8333acf771' then val.attr_val else null end) as `Additional #2` -- LB00000059
+     , max(case when val.attr_uuid = '6bc7c28c-5aa9-4a02-8d2c-cc6e5e02ef83' then val.attr_val else null end) as `Additional #3` -- LB00000060
+from tb_item_mpng_d item
+left join tb_cpnt_add_attr_val_d val on item.obj_uuid = val.obj_uuid
+left join tb_add_attr_header_m header on val.attr_uuid = header.attr_uuid and header.item_code = 'LB' and header.disp_tab = 'A'
+left join tb_multi_lang_label_m label on header.label_id = label.label_id and label.lang_code = 'en'
+left join tb_multi_code_add_attr_val_d mval on item.obj_uuid = mval.obj_uuid and header.attr_uuid = mval.attr_uuid
+where 1=1
+and item.item_code = 'LB'
+-- and item.obj_uuid in ('01fc8c78-1e1b-4c53-aea4-e2a953a48059','023c74f1-7616-424a-ad63-937aaabf9829')
+-- and item.obj_code = 'CHLB000191'
+group by item.obj_code,item.obj_name
+;
